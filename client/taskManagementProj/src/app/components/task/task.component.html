@@ -1,0 +1,31 @@
+<div class="container" [ngClass]="task.isDone ? 'checked' : ''">
+  <div class="task">
+    <div class="done">
+      <input
+        name="done"
+        type="checkbox"
+        (change)="onCheck()"
+        [checked]="task.isDone"
+      />
+    </div>
+
+    <div class="content">
+      <div>
+        <p class="title">{{ task.title }}</p>
+        <div class="des">
+          <p>{{ task.description }} </p>
+        </div>
+      </div>
+      <div>
+        <p>Priority level: {{ task.priority }}</p>
+      </div>
+
+      <div class="userBtn">
+        <button (click)="deleteTask()">Delete</button>
+      </div>
+    </div>
+  </div>
+  <div class="user">
+    <p>Added by: {{ task.userName }}</p>
+  </div>
+</div>

@@ -1,0 +1,26 @@
+<div class="login">
+  <div>
+    <h1>Register</h1>
+    <br />
+  </div>
+  <input type="text" [(ngModel)]="user.userName" placeholder="User Name" />
+  <br />
+  <input type="password" [(ngModel)]="user.pwd" placeholder="Password" />
+  <br />
+  <input type="text" [(ngModel)]="user.email" placeholder="Email" />
+  <br />
+  <input type="text" [(ngModel)]="user.fullName" placeholder="Full Name" /> <br />
+  <br />
+  <button (click)="register()">Register</button>
+  <br />
+  <p>Already have a User? <a routerLink="">Login here.</a></p>
+</div>
+
+<!-- <div>
+  <h1>REGISTER</h1>
+  Username: <input type="text" [(ngModel)]="user.userName" /><br />
+  Pasword: <input type="text" [(ngModel)]="user.pwd" /> <br />
+  Email:<input type="text" [(ngModel)]="user.email" /><br />
+  Full Name: <input type="text" [(ngModel)]="user.fullName" /><br />
+  <button (click)="register()">Submit</button>
+</div> -->

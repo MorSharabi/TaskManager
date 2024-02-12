@@ -1,0 +1,42 @@
+<div
+  (click)="showNewOnClick()"
+  class="shadow"
+  [style.display]="showNew ? 'block' : 'none'"
+></div>
+<div class="gen">
+  <div class="top">
+    <div class="title">
+      <p>Hello {{ userName }},</p>
+      <h1>Task Manager</h1>
+    </div>
+    <div class="showBtn">
+      <button (click)="showNewOnClick()">+</button>
+    </div>
+  </div>
+  <div class="new" [style.display]="showNew ? 'block' : 'none'">
+    <div>
+      <div class="title"><p>New Task</p></div>
+      <div class="content">
+        <div>
+          <app-new-task [userName]="userName" (onNewTask)="newTaskHandler($event)"></app-new-task>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="list">
+    <div *ngFor="let task of taskList">
+      <app-task
+        [task]="task"
+        (onDeleteTask)="deleteTaskHandler(task._id)"
+        (onCheckTask)="taskCheckHandler(task._id, task.isDone)"
+      ></app-task>
+    </div>
+    <div *ngFor="let task of doneTaskList">
+      <app-task
+        [task]="task"
+        (onDeleteTask)="deleteTaskHandler(task._id)"
+        (onCheckTask)="taskCheckHandler(task._id, task.isDone)"
+      ></app-task>
+    </div>
+  </div>
+</div>

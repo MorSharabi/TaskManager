@@ -1,0 +1,107 @@
+[
+  {
+    "userName": "user123",
+    "title": "Do the laundry",
+    "description": "Wash and fold the clothes",
+    "priority": 2,
+    "isDone": false
+  },
+  {
+    "userName": "user123",
+    "title": "Clean the kitchen",
+    "description": "Wipe down surfaces and wash dishes",
+    "priority": 3,
+    "isDone": false
+  },
+  {
+    "userName": "user123",
+    "title": "Mow the lawn",
+    "description": "Trim the grass in the backyard",
+    "priority": 1,
+    "isDone": false
+  },
+  {
+    "userName": "user456",
+    "title": "Grocery shopping",
+    "description": "Buy essentials from the supermarket",
+    "priority": 2,
+    "isDone": false
+  },
+  {
+    "userName": "user456",
+    "title": "Study for the exam",
+    "description": "Review notes and solve practice questions",
+    "priority": 3,
+    "isDone": false
+  },
+  {
+    "userName": "user789",
+    "title": "Water the plants",
+    "description": "Give the plants their daily water",
+    "priority": 1,
+    "isDone": false
+  },
+  {
+    "userName": "user789",
+    "title": "Cook dinner",
+    "description": "Prepare a nutritious meal",
+    "priority": 2,
+    "isDone": false
+  },
+  {
+    "userName": "user789",
+    "title": "Vacuum the house",
+    "description": "Clean the floors and carpets",
+    "priority": 1,
+    "isDone": false
+  },
+  {
+    "userName": "user789",
+    "title": "Organize the closet",
+    "description": "Arrange clothes and declutter",
+    "priority": 2,
+    "isDone": false
+  },
+  {
+    "userName": "user123",
+    "title": "Pay bills",
+    "description": "Clear pending utility and credit card bills",
+    "priority": 3,
+    "isDone": false
+  },
+  {
+    "userName": "user123",
+    "title": "Walk the dog",
+    "description": "Take the dog for a walk in the park",
+    "priority": 1,
+    "isDone": false
+  },
+  {
+    "userName": "user456",
+    "title": "Call a friend",
+    "description": "Catch up with a dear friend",
+    "priority": 2,
+    "isDone": false
+  },
+  {
+    "userName": "user789",
+    "title": "Read a book",
+    "description": "Spend some time with a good book",
+    "priority": 3,
+    "isDone": false
+  },
+  {
+    "userName": "user456",
+    "title": "Exercise",
+    "description": "Go for a jog or do a home workout",
+    "priority": 1,
+    "isDone": false
+  },
+  {
+    "userName": "user456",
+    "title": "Plan weekend activities",
+    "description": "Decide on fun weekend plans",
+    "priority": 2,
+    "isDone": false
+  }
+]

@@ -1,0 +1,17 @@
+<div class="container">
+  <div class="content">
+    Title:
+    <input type="text" [(ngModel)]="task.title" required #title /> Description:
+    <input type="text" [(ngModel)]="task.description" />
+    Priority:
+    <input type="number" [(ngModel)]="task.priority" min="1" max="5" />
+    <div>
+      <button
+        (click)="addNewTask()"
+        [disabled]="!title.value || task.priority < 1 || (task.priority > 5)"
+      >
+        Add new Task
+      </button>
+    </div>
+  </div>
+</div>
